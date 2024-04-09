@@ -88,13 +88,13 @@ const animationTimeline = () => {
         scale: 0.2,
         opacity: 0,
     })
-    .from(".fake-btn", 0.3, {
+    .from(".fake-btn", 0.2, {
         scale: 0.2,
         opacity: 0,
     })
     .staggerTo(
         ".hbd-chatbox span",
-        1.5, {
+        1.3, {
             visibility: "visible",
         },
         0.05
@@ -187,7 +187,7 @@ const animationTimeline = () => {
     )
     .from(
         ".profile-picture",
-        0.5, {
+        0.3, {
             scale: 3.5,
             opacity: 0,
             x: 25,
@@ -197,14 +197,14 @@ const animationTimeline = () => {
         "-=2"
     )
     .from(".hat", 0.5, {
-        x: -100,
+        x: -50,
         y: 350,
         rotation: -180,
         opacity: 0,
     })
     .staggerFrom(
         ".wish-hbd span",
-        0.7, {
+        0.8, {
             opacity: 0,
             y: -50,
             // scale: 0.3,
@@ -216,7 +216,7 @@ const animationTimeline = () => {
     )
     .staggerFromTo(
         ".wish-hbd span",
-        0.7, {
+        0.8, {
             scale: 1.4,
             rotationY: 150,
         }, {
@@ -230,7 +230,7 @@ const animationTimeline = () => {
     )
     .from(
         ".wish h5",
-        0.5, {
+        0.6, {
             opacity: 0,
             y: 10,
             skewX: "-15deg",
